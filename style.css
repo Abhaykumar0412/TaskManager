@@ -1,0 +1,161 @@
+* {
+    margin: 0px;
+    padding: opx;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+.utility {
+    height: 10%;
+    width: 100%;
+    background-color: #7D8ABC;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.priorityColor {
+    height: 70%;
+    width: 35%;
+    background-color: #FFC7ED;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box {
+    height: 80%;
+    width: 20%;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.green {
+    background-color: green;
+}
+
+.black {
+    background-color: black;
+}
+
+.controls {
+    height: 70%;
+    width: 13%;
+    background-color: #FFC7ED;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.search {
+    height: 80%;
+    width: 21%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.searchBar {
+    height: 70%;
+    width: 80%;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 3vh;
+}
+
+.srchBtn {
+    height: 50%;
+    padding: 5px;
+    background-color: #7D8ABC;
+    color: white;
+    margin-left: 5px;
+}
+
+.ticketAdder {
+    height: 30vh;
+    width: 40vw;
+    background-color: #FFC7ED;
+    position: absolute;
+    left: 30vw;
+    top: 20vh;
+    z-index: 20;                     /* agar dusre box ka text dusre box me aata hai to z-index: ; ka use karte hai */
+}
+
+.textPart {
+    height: 75%;
+    width: 100%;
+    resize: none;                   /*textPart ka size bada na ho  */
+    outline: none;
+    border: none;
+    background-color: transparent;
+    font-size: 2rem;
+    padding: 2%;
+}
+
+.ticketpriority {
+    height: 25%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 2px solid black;
+}
+
+.border {
+    border: 6px solid grey;
+}
+
+.ticketContainer {
+    height: 90%;
+    width: 100%;
+    background-color: #FAFFAF;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 2%;
+
+}
+
+.ticket {
+    height: 30vh;
+    width: 17vw;
+    margin: 5px;
+    background-color: #7D8ABC;
+}
+
+.taskColor {
+    height: 10%;
+}
+
+.taskText {
+    padding: 5px;
+    font-size: 2rem;
+    position: relative;
+    height: 90%;
+}
+
+.lock {
+    position: absolute;
+    right: 5%;
+    bottom: 5%;
+}
+
+.noDisplay{
+    display: none;
+}
+
+.editTask{
+    word-break: break-all;
+}
